@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Truyền thông 8/3</title>
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <link rel="stylesheet" type="text/css" href="../css/button.css">
+    <link rel="stylesheet" type="text/css" href="../css/dialog.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="main__wrapper-title">
+            <h1 data-heading="Chúc Mừng Truyền Thông 8/3 nha" class="main__title">Chúc Mừng Truyền Thông 8/3 nha</h1>
+        </div>
+
+        <div class="main__users">
+            <div class="main_users-col">
+                <li>
+                    <button data-id="1" class="btn-user">
+                        <span>Stella</span>
+                        <svg fill="#D65076" viewBox="-5 -5 110 110" preserveAspectRatio="none" aria-hidden="true">
+                            <path
+                                d="M0,0 C0,0 100,0 100,0 C100,0 100,100 100,100 C100,100 0,100 0,100 C0,100 0,0 0,0" />
+                        </svg>
+                    </button>
+                </li>
+                <li>
+                    <button data-id="2" class="btn-user">
+                        <span>Minh Thư</span>
+                        <svg fill="#5DE3A4" viewBox="-5 -5 110 110" preserveAspectRatio="none" aria-hidden="true">
+                            <path
+                                d="M0,0 C0,0 100,0 100,0 C100,0 100,100 100,100 C100,100 0,100 0,100 C0,100 0,0 0,0" />
+                        </svg>
+                    </button>
+                </li>
+                <li>
+                    <button data-id="3" class="btn-user">
+                        <span>Minh Anh</span>
+                        <svg fill="#D65076" viewBox="-5 -5 110 110" preserveAspectRatio="none" aria-hidden="true">
+                            <path
+                                d="M0,0 C0,0 100,0 100,0 C100,0 100,100 100,100 C100,100 0,100 0,100 C0,100 0,0 0,0" />
+                        </svg>
+                    </button>
+                </li>
+                <li>
+                    <button data-id="4" class="btn-user">
+                        <span>An Thái</span>
+                        <svg fill="#5DE3A4" viewBox="-5 -5 110 110" preserveAspectRatio="none" aria-hidden="true">
+                            <path
+                                d="M0,0 C0,0 100,0 100,0 C100,0 100,100 100,100 C100,100 0,100 0,100 C0,100 0,0 0,0" />
+                        </svg>
+                    </button>
+                </li>
+            </div>
+            <div class="main_users-col">
+                <li>
+                    <button data-id="5" class="btn-user">
+                        <span>Chị Huyền</span>
+                        <svg fill="#5DE3A4" viewBox="-5 -5 110 110" preserveAspectRatio="none" aria-hidden="true">
+                            <path
+                                d="M0,0 C0,0 100,0 100,0 C100,0 100,100 100,100 C100,100 0,100 0,100 C0,100 0,0 0,0" />
+                        </svg>
+                    </button>
+                </li>
+                <li>
+                    <button data-id="6" class="btn-user">
+                        <span>Quỳnh Chi</span>
+                        <svg fill="#D65076" viewBox="-5 -5 110 110" preserveAspectRatio="none" aria-hidden="true">
+                            <path
+                                d="M0,0 C0,0 100,0 100,0 C100,0 100,100 100,100 C100,100 0,100 0,100 C0,100 0,0 0,0" />
+                        </svg>
+                    </button>
+                </li>
+                <li>
+                    <button data-id="7" class="btn-user">
+                        <span>Lưu Linh</span>
+                        <svg fill="#5DE3A4" viewBox="-5 -5 110 110" preserveAspectRatio="none" aria-hidden="true">
+                            <path
+                                d="M0,0 C0,0 100,0 100,0 C100,0 100,100 100,100 C100,100 0,100 0,100 C0,100 0,0 0,0" />
+                        </svg>
+                    </button>
+                </li>
+                <li>
+                    <button data-id="8" class="btn-user">
+                        <span>Léb</span>
+                        <svg fill="#D65076" viewBox="-5 -5 110 110" preserveAspectRatio="none" aria-hidden="true">
+                            <path
+                                d="M0,0 C0,0 100,0 100,0 C100,0 100,100 100,100 C100,100 0,100 0,100 C0,100 0,0 0,0" />
+                        </svg>
+                    </button>
+                </li>
+            </div>
+        </div>
+    </div>
+
+    <!-- Login dialog -->
+    <div class="blur-background"></div>
+    <div class="overlay">
+        <form id="login-form" method="post">
+            <div class="con">
+                <header class="head-form">
+                    <h2 id="title-dialog">TUANQUEN</h2>
+                </header>
+                <br>
+                <div class="field-set">
+                    <span class="input-item">
+                        <i class="fa fa-key"></i>
+                    </span>
+                    <input id="pwuser" class="form-input" type="password" placeholder="Mật khẩu" id="pwd" name="password">
+                    <br>
+                    <button class="btn-form log-in"> Vào thôi ! </button>
+                    <div id="error-field">
+                        <p>Đừng tò mò như vậy chứ</p>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.slim.js" integrity="sha256-DKU1CmJ8kBuEwumaLuh9Tl/6ZB6jzGOBV/5YpNE2BWc=" crossorigin="anonymous"></script>
+    <script src="../js/authen.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+
+</html>
